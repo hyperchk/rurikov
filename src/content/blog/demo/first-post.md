@@ -2,11 +2,11 @@
 title: 'Pirate'
 description: 'HTB Machine'
 pubDate: '3/5/26'
-heroImage: './images/pirate.jpeg'
+heroImage: '/images/pirate.jpeg'
 tags: ["HTB", "Active Directory"]
 ---
 
-![](./images/Pasted%20image%2020260304061759.png)
+![](/images/Pasted%20image%2020260304061759.png)
 
 ## Machine Information
 
