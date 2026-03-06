@@ -6,7 +6,7 @@ heroImage: './images/pirate.jpeg'
 tags: ["HTB", "Active Directory"]
 ---
 
-![](/public/Media/Pasted%20image%2020260304061759.png)
+![](/Media/Pasted%20image%2020260304061759.png)
 
 ## Machine Information
 
