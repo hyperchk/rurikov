@@ -3,7 +3,7 @@ import { defineConfig } from 'astro/config'
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://hyperchk.github.io',
+	site: 'https://hyperchk.github.io/rurikov',
 	base: '/rurikov',
 	output: 'static',
 	integrations: [
