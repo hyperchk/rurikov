@@ -7,23 +7,23 @@ export default defineConfig({
 	integrations: [
 		theme({
 			site: {
-				title: `Example Blog`,
-				description: 'Here is Example Blog!',
+				title: `Rurikov's hack`,
+				description: 'CTF and Write up',
 				locale: 'zh-CN',
 				url: 'https://yangqiuyi.com',
 			},
 			author: {
-				name: 'Example',
-				email: 'user@example.com',
-				signature: 'To Be A Geek :)',
+				name: 'Rurivkov',
+				email: 'cesaralonso162007@gmail.com',
+				signature: 'hack',
 				avatar: {
-					url: 'https://avatars.githubusercontent.com/u/62047803?v=4',
-					alt: 'Meo',
+					url: 'https://api.dicebear.com/9.x/rings/svg?seed=Aiden',
+					alt: 'Blue',
 				},
 			},
 			links: {
 				bilibili: 'bilibili',
-				github: 'github',
+				github: 'https://github.com/hyperchk',
 			},
 			pages: {
 				aboutMe: '/about',
