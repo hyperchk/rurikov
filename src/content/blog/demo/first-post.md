@@ -1238,7 +1238,7 @@ This means that the principal can authenticate as any user to specific services 
 
 
 
-![](./images/Media/Pasted%20image%2020260303193333.png)
+![](./images/Pasted%20image%2020260303193333.png)
 
 We removed the SPN from WEB01
 
