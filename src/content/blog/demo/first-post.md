@@ -241,9 +241,9 @@ LDAP        10.129.6.74     389    DC01             Compressing output into /hom
 
 ## BloodHound MS01
 
-![](/assets/Media/Pasted%20image%2020260301062008.png)
+![](./images/Pasted%20image%2020260301062008.png)
 
-![](/assets/Media/Pasted%20image%2020260301062132.png)
+![](./images/Pasted%20image%2020260301062132.png)
 
 ### What is Pre-Windows 2000 Compatible Access?
 
@@ -263,7 +263,7 @@ The Pre-Windows 2000 Compatible Access group allows certain legacy systems
 to read information from Active Directory, such as users and groups. Members of this group may have broader read permissions across the domain.
 
 
-![](/assets/Media/Pasted%20image%2020260301063404.png)
+![](./images/Pasted%20image%2020260301063404.png)
 
 These accounts correspond to machine accounts or service accounts.
 
@@ -302,7 +302,7 @@ LDAP        10.129.241.227  389    DC01             gMSA_ADCS_prod$
 LDAP        10.129.241.227  389    DC01             gMSA_ADFS_prod$
 ```
 
-![](/assets/Media/Pasted%20image%2020260301071350.png)
+![](./images/Pasted%20image%2020260301071350.png)
 
 ## Evil-Winrm
 
@@ -790,7 +790,7 @@ OpaqueLength           : 0
 
 [Security identifiers](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/understand-security-identifiers)
 
-![](/assets/Media/Pasted%20image%2020260302192445.png)
+![](./images/Pasted%20image%2020260302192445.png)
 
 The SELF Permission allows a machine account (WEB01$) to have control over some aspects of its own object in Active Directory, like:
 
@@ -1201,7 +1201,7 @@ rc@Cesar:~/PetitPotam
 ```
 
 
-![](/assets/Media/Pasted%20image%2020260303193428.png)
+![](./images/Pasted%20image%2020260303193428.png)
 
 
 ``` python
@@ -1234,11 +1234,11 @@ The image shows a delegation relationship in Active Directory:
 
 This means that the principal can authenticate as any user to specific services on the target computer. This account can act like any other user just to connect to that server's HTTP service.
 
-![](/assets/Media/Pasted%20image%2020260303193208.png)
+![](./images/Pasted%20image%2020260303193208.png)
 
 
 
-![](/assets/Media/Pasted%20image%2020260303193333.png)
+![](./images/Media/Pasted%20image%2020260303193333.png)
 
 We removed the SPN from WEB01
 
