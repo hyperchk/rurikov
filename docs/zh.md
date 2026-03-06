@@ -16,33 +16,39 @@ pnpm add https://github.com/miaobuao/astro-theme-meo-minimalism.git
 
 ```ts
 // astro.config.mjs
-import theme from 'astro-theme-meo-minimalism'
+import theme from '.'
 import { defineConfig } from 'astro/config'
 
+// https://astro.build/config
 export default defineConfig({
-	site: 'https://example.com',
+	site: 'https://hyperchk.github.io',
+	base: '/rurikov',
+	output: 'static',
 	integrations: [
 		theme({
 			site: {
-				title: `Example Blog`,
-				description: 'Here is Example Blog!',
-				locale: 'zh-CN',
-				url: 'https://example.com',
+				title: `Rurikov's hack`,
+				description: 'CTF and Write up',
+				locale: 'en-US',
+				url: 'https://hyperchk.github.io/rurikov',
 			},
 			author: {
-				name: 'Example',
-				email: 'user@example.com',
-				signature: 'To Be A Geek :)',
+				name: 'Rurivkov',
+				email: 'cesaralonso162007@gmail.com',
+				signature: 'hack',
 				avatar: {
-					url: 'https://avatars.githubusercontent.com/u/62047803?v=4',
-					alt: 'Meo',
+					url: 'https://api.dicebear.com/9.x/rings/svg?seed=Aiden',
+					alt: 'Blue',
 				},
+			},
+			links: {
+				bilibili: 'bilibili',
+				github: 'https://github.com/hyperchk',
 			},
 			pages: {
 				aboutMe: '/about',
 			},
 		}),
-		// ... other integrations
 	],
 })
 ```
