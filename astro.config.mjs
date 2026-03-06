@@ -1,10 +1,17 @@
 import theme from '.'
 import { defineConfig } from 'astro/config'
 
-// https://astro.build/config
 export default defineConfig({
 	site: 'https://hyperchk.github.io/rurikov',
+	base: '/rurikov',
+	trailingSlash: "always",
+
+	build: {
+		assets: "_astro"
+	},
+
 	output: 'static',
+
 	integrations: [
 		theme({
 			site: {
