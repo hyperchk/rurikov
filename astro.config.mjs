@@ -3,14 +3,16 @@ import { defineConfig } from 'astro/config'
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://example.com',
+	site: 'https://hyperchk.github.io',
+	base: '/rurikov',
+	output: 'static',
 	integrations: [
 		theme({
 			site: {
 				title: `Rurikov's hack`,
 				description: 'CTF and Write up',
-				locale: 'zh-CN',
-				url: 'https://yangqiuyi.com',
+				locale: 'en-US',
+				url: 'https://hyperchk.github.io/rurikov',
 			},
 			author: {
 				name: 'Rurivkov',
